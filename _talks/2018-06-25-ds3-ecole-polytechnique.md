@@ -4,7 +4,7 @@ collection: talks
 type: "Tutorial"
 permalink: /talks/2018-06-25-ds3-ecole-polytechnique
 venue: "Data Science Summer School"
-date: 2014-03-01
+date: 2018-06-25
 location: "École Polytechnique, Paris, France"
 ---
 
