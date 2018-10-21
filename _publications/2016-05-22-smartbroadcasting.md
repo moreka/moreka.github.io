@@ -1,7 +1,7 @@
 ---
 title: "Smart broadcasting: Do you want to be seen?"
 collection: publications
-permalink: /publication/2016-05-22-smartbroadcasting.md
+permalink: /publication/2016-05-22-smartbroadcasting
 excerpt: 'This paper is about the problem of visibility in a social network. We give an optimal broadcasting scheme that maximizes a user's visibility in a network.'
 date: 2016-05-22
 venue: 'KDD 2016'
