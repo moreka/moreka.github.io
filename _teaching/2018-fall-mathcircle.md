@@ -8,14 +8,15 @@ date: 2018-10-19
 location: "Zürich, Switzerland"
 ---
 
+Math Circle is a place where everyone with any background can experience the exhilaration of mathematical exploration!
 
 Material
-========
+--------
 Here I place the material for the circle. You can download the file [here](https://moreka.github.io/files/hs2018.pdf).
 
 
-Introduction
-============
+About the Circle
+----------------
 
 Math Circle is a place where everyone with any background can experience the exhilaration of mathematical exploration! Our main theme is problem solving (individually and in groups), as well as playing some small fun math competitions. If you
 
