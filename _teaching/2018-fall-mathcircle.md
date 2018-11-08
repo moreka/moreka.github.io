@@ -29,4 +29,4 @@ then here you are! Welcome to the club!
 
 This semester’s focus is combinatorics, where you can find lots of structural and creative problems. We also introduce most fundamental concepts and problem solving techniques.
 
-The circle is going to be held every Friday from 3-5 (starting from 19th of October until 21st December) in CAB G 51. The registration is free [here](https://vis.ethz.ch/en/current/math_circle_hs18)
+The circle is going to be held every Friday from 3-5 (starting from 19th of October until 21st December) in CAB G 61. The registration is free [here](https://vis.ethz.ch/en/current/math_circle_hs18)
