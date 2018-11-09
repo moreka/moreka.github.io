@@ -13,7 +13,7 @@ Math Circle is a place where everyone with any background can experience the exh
 Material
 --------
 Here I place the material for the circle. You can download the file [here](https://moreka.github.io/files/hs2018.pdf).
-__Last Update:__ _8 Nov 2018_.
+__Last Update:__ _9 Nov 2018_.
 
 
 About the Circle
