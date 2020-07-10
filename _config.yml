@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mohammad Reza Karimi"
 title_separator          : "-"
 name                     : &name "Mohammad Reza Karimi"
-description              : &description "Research Assistant in LAS Lab, ETH Zürich"
+description              : &description "PhD Student in LAS Group, ETH Zürich"
 url                      : https://moreka.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "moreka/moreka.github.io"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Mohammad Reza Karimi"
   avatar           : "profile.jpeg"
-  bio              : "Research Assistant in LAS Lab"
+  bio              : "PhD Student in LAS Lab"
   location         : "Zürich, Switzerland"
   employer         :
   googlescholar    : "https://scholar.google.ch/citations?user=CEZbTgMAAAAJ&hl=en"
-  email            : "mkarimi _at_ ethz.ch"
+  email            : "mkarimi _at_ inf.ethz.ch"
   uri              :
   bitbucket        :
   codepen          :
