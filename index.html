@@ -1,13 +1,52 @@
 <!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/main.css" rel="stylesheet">
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+<html class="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/main.css" rel="stylesheet">
+    <script type="text/javascript" inline>
+    function _apply_theme(theme) {
+      if (theme == 'light')
+        document.documentElement.classList.remove("dark");
+      else
+        document.documentElement.classList.add("dark");
+      localStorage.theme = theme;
+    }
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      _apply_theme('dark');
+    } else {
+      _apply_theme('light');
+    }
+    function toggle_darkmode() {
+      theme = localStorage.theme == 'light' ? 'dark' : 'light';
+      _apply_theme(theme);
+      console.log("Gell")
+    }
+    </script>
+  </head>
+  <body class="dark:bg-gray-800 bg-white">
+    <div class="flex flex-row mt-5">
+      <div class="basis-1/2">
+        <img class="h-60 w-60 aspect-square ml-auto mr-10 rounded-full" src="/dist/pic.jpg" />
+      </div>
+      <div class="basis-1/2 flex flex-col justify-center">
+        <h1 class="font-bold text-3xl text-black dark:text-white">Mohammad Reza Karimi</h1>
+        <h2 class="text-xl mb-3 text-black dark:text-white">PhD Student</h2>
+        <div>
+          <div><a class="text-blue-700 dark:text-blue-300" href="https://las.inf.ethz.ch">Learning and Adaptive Systems Group</a></div>
+          <div><a class="text-blue-700 dark:text-blue-300" href="https://inf.ethz.ch">Department of Computer Science</a></div>
+          <div><a class="text-blue-700 dark:text-blue-300" href="https://ethz.ch">ETH Zurich</a></div>
+        </div>
+        <div class="mt-4 text-black dark:text-gray-300">
+          <div><h3 class="font-medium">Email</h3> <span class="font-mono">mkarimi [at] inf [dot]
+            ethz [dot] ch</span></div>
+        </div>
+        <div class="mt-4 text-black dark:text-gray-300">
+          <a class="mr-4" href="https://github.com/moreka">Github</a>
+          <a href="/dist/cv.pdf">CV</a>
+        </div>
+      </div>
+    </div>
+    <!-- <button onclick="toggle_darkmode();">Toggle</button> -->
+  </body>
 </html>
